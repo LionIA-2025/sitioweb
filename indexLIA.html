@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion-IA</title>
+    <link rel="icon" href="logo.jpeg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #d3d3d3;
+            color: #333;
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        header {
+            background: #1f2937;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        header img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        nav {
+            background: #4b5563;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #f8f9fa;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        section {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+         
+            font-size: 2rem; /* Tamaño de fuente grande */
+            color: #333; /* Color elegante y neutro */
+            background: linear-gradient(90deg, #007bff, #00c6ff); /* Degradado elegante */
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: bold;
+            text-transform: uppercase; /* Convierte el texto a mayúsculas */
+            letter-spacing: 1.5px; /* Espaciado entre letras */
+            text-align: center; /* Alineación centrada */
+            padding: 10px 0; /* Espaciado interno */
+            border-bottom: 3px solid #007bff; /* Línea inferior decorativa */
+
+        }
+
+        footer {
+            text-align: center;
+            background: #1f2937;
+            color: #ffffff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+        }
+        .texto-estilizado {
+            font-weight: bold; /* Negrita */
+            text-decoration: underline; /* Subrayado */
+        }
+        .texto-estilizado1 {
+            font-weight: bold; /* Negrita */
+        }
+        .boton {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 7px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .boton:hover {
+             background-color: #0056b3;
+        }
+
+        .contenedor-botones {
+            display: flex;
+            flex-direction: column;
+            align-items: left; /* Centrar horizontalmente los botones */
+            gap: 10px; /* Espacio entre botones */
+            margin-top: 8px;
+        }
+
+        .texto-verde {
+            color: green;
+        }
+
+        .inline-class {
+            display: inline; /* Hace que el div no genere salto de línea */
+            font-weight: bold;
+            margin: 0; /* Elimina márgenes */
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Baner.jpeg" alt="Imagen de portada">
+</header>
+
+<nav>
+    <a href="#about">Quiénes Somos</a>
+    <a href="#why-us">Por qué Elegirnos</a>
+    <a href="#services">Servicios que ofrecemos</a>
+    <a href="#products">Productos</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Somos una empresa de desarrollo de Software, que ayuda a diversas industrias y negocios, en mayor o menor escala, 
+        a lograr eficiencia operativa en base a la implementacion de tecnologias de punta.
+        En este sentido nuestro foco se centra en el desarrollo de modelos de IA, para la toma de decisiones y reduccion de costos. 
+        </p>
+    </section>
+
+    <section id="why-us">
+        <h2>¿Por qué Elegirnos?</h2>
+        <p>En <span class="inline-class"> Lion-IA </span> nos destacamos por ofrecer soluciones innovadoras que permiten a las empresas escalar sus operaciones a otro nivel mediante inteligencia artificial. 
+            Nuestro compromiso es convertir desafíos en oportunidades.
+        </p>
+        <br>
+        <p>
+            Los lenguajes/tecnologias que actualmente usamos son: <br>
+            <ul>
+                <div class="texto-estilizado1">
+                    <li>Python </li>
+                    <li> PHP </li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Mysql </li>
+                </div>
+            </ul>
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Servicios que ofrecemos</h2>
+    <ul>
+            <li><div class="texto-estilizado"> Software Factory:</div> Desarrollamos el producto a medida en base a las especificaciones del cliente, y entregamos el package probado y listo para su implementación.</li>
+            <li><div class="texto-estilizado">Mantenimiento:</div> Brindamos soporte y mantenimiento sobre aplicaciones ya desarrolladas por otras compañias.</li>
+            <li><div class="texto-estilizado">Proyecto:</div> En base a especificaciones del cliente, se desarrolla toda una aplicación nueva, con las integraciones necesarias, y se realiza el despliege.</li>
+        
+        <br>
+        <p class="texto-estilizado1">
+            Dependiendo del tipo de servicio, se efectua un presupuesto con fecha de entrega del producto. En caso de aceptacion, se envia contrato para comenzar con el trabajo. 
+        </p>
+        
+    </ul>
+    </section>
+
+    <section id="products">
+        <h2>Nuestros productos</h2>
+        <ul>
+            <li>Aplicacion WEB que permite, mediante el uso de Machine Learning, predecir las tendencias de Criptomonedas, y emitir señales de compra/venta.
+                <p><span class="texto-estilizado1">Fase:</span> <span class="texto-verde">En curso </span></p>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Canales de Contacto</h2>
+        <p><div class="texto-estilizado1">Correo Electrónico:</div></p>
+        <ul>
+            <li>
+                fv7020@gmail.com
+            </li>
+        </ul>
+        <p><div class="texto-estilizado1">Redes sociales:</div></p>
+            <div class="contenedor-botones">
+            <p><a href ="https://www.linkedin.com/company/lion-ia/" class="boton"> LinkedIn </a> 
+            <a href ="https://www.facebook.com/profile.php?id=61572968425946" class="boton"> Facebook </a> </p>
+            </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Lion-IA. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
