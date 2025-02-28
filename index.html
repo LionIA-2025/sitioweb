@@ -209,20 +209,29 @@
         <p><div class="texto-estilizado1">Correo Electrónico:</div></p>
         <ul>
             <li>
-                fv7020@gmail.com
+                lionia.software@gmail.com
             </li>
         </ul>
         <p><div class="texto-estilizado1">Redes sociales:</div></p>
             <div class="contenedor-botones">
-            <p><a href ="https://www.linkedin.com/company/lion-ia/" class="boton"> LinkedIn </a> 
-            <a href ="https://www.facebook.com/profile.php?id=61572968425946" class="boton"> Facebook </a> </p>
+        <p>
+            <a href ="https://www.linkedin.com/company/lion-ia/" class="boton" target="_blank" rel="noopener noreferrer"> LinkedIn </a> 
+            <a href ="https://www.facebook.com/profile.php?id=61572968425946" class="boton" target="_blank" rel="noopener noreferrer"> Facebook </a> 
+            <a href ="https://x.com/lion_ia?t=sVDGPOCFO6qgd6zBUfJ6tw&s=08" class="boton" target="_blank" rel="noopener noreferrer"> X (ex Twitter) </a> 
+        </p>
+
             </div>
     </section>
 </div>
 
 <footer>
-    <p>&copy; 2025 Lion-IA. Todos los derechos reservados.</p>
+    <p>&copy; <span id="year"></span>  Lion-IA. Todos los derechos reservados.</p>
 </footer>
+
+<script>
+     // Obtener el año actual y actualizar el span con id="year"
+     document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
